@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="left">
+        <div class="img">
+            <img src="img/sign.jpg" alt="sign">
+        </div>
+        <div class="logo">
+            <img class="odin" src="img/odin-lined.png" alt="odin lined logo">
+            ODIN
+        </div>
+    </div>
+    <div class="right">
+        <p><div class="dummy-text">This is dummy text!this page will literally do nothing but fill it out anyways!</div></p>
+        <form action="example.com/path" method="post">
+            <div class="inside-dummy-text">Let's do this!</div>
+            <div class="form">
+                <div class="l-form">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name" placeholder="Ex: Matthew" required>
+                    <label for="user_email">Email:</label>
+                    <input type="email" id="user_email" name="user_email" placeholder="EX: mrrobot@gmail.com" required>
+                    <label for="usr_pwd">Password:</label>
+                    <input type="password" name="password" id="password" required>
+                    <button type="submit">Create Account</button>
+                </div>
+                <div class="r-form">
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name" placeholder="Ex: Murdock">
+                    <label for="phone_number">Phone Number:</label>
+                    <input type="tel" name="phone_number" id="phone_number" placeholder="Ex: 404-000-0000" 
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Please enter a valid phone number, example: 404-000-0000" required>
+                    <label for="confirm_pwd">Confirm Password:</label>
+                    <input type="password" name="confirm_password" id="confirm_password" required>
+                </div>
+            </div>
+        </form>
+        <p><div class="login">Alredy have an account? <a href="#">Log in</a></div></p>
+    </div>
+</body>
+</html>
